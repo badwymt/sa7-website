@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-sa7-green: #00BFA5;
+  --color-sa7-green-dark: #009688;
+  --color-sa7-orange: #FF6B00;
+  --color-sa7-blue: #004A9B;
+  --color-sa7-red: #E31837;
+  --font-cairo: 'Cairo', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Cairo', sans-serif;
+  background: #f8f9fa;
+  color: #1a1a2e;
+}
+
+/* RTL scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 3px;
+}
