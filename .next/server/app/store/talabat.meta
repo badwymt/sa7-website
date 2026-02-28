@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/store/layout,_N_T_/store/[id]/layout,_N_T_/store/[id]/page,_N_T_/store/talabat"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/store/$d$id/__PAGE__",
+    "/store/$d$id",
+    "/store",
+    "/_index",
+    "/_head"
+  ]
+}

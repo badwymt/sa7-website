@@ -1,0 +1,14 @@
+{
+  "/_global-error/page": "app/_global-error/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/about/page": "app/about/page.js",
+  "/alerts/page": "app/alerts/page.js",
+  "/categories/page": "app/categories/page.js",
+  "/category/[id]/page": "app/category/[id]/page.js",
+  "/deals/page": "app/deals/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/page": "app/page.js",
+  "/product/[id]/page": "app/product/[id]/page.js",
+  "/store/[id]/page": "app/store/[id]/page.js",
+  "/stores/page": "app/stores/page.js"
+}
