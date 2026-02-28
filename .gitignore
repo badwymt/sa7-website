@@ -6,3 +6,4 @@ venv/
 node_modules/
 scraped_data/
 *.json.bak
+node_modules/
