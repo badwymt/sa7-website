@@ -9,6 +9,13 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 bg-white shadow-sm border-b border-gray-100">
       <div className="max-w-7xl mx-auto px-4">
+        {/* Ramadan banner */}
+        <div className="bg-gradient-to-l from-purple-600 to-indigo-600 text-white text-center py-1.5 -mx-4 px-4">
+          <Link href="/ramadan" className="text-xs font-semibold hover:underline">
+            🌙 عروض رمضان ٢٠٢٦ — شوف أرخص الأسعار النهاردة ←
+          </Link>
+        </div>
+
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2">
@@ -38,7 +45,7 @@ export default function Header() {
           {/* Nav */}
           <nav className="hidden md:flex items-center gap-1">
             <Link href="/" className="px-3 py-2 rounded-lg text-sm font-semibold text-gray-700 hover:bg-gray-100 transition">الرئيسية</Link>
-            <Link href="/categories" className="px-3 py-2 rounded-lg text-sm font-semibold text-gray-700 hover:bg-gray-100 transition">الأقسام</Link>
+            <Link href="/ramadan" className="px-3 py-2 rounded-lg text-sm font-semibold bg-purple-50 text-purple-700 hover:bg-purple-100 transition">رمضان 🌙</Link>
             <Link href="/deals" className="px-3 py-2 rounded-lg text-sm font-semibold text-gray-700 hover:bg-gray-100 transition">العروض 🔥</Link>
             <Link href="/stores" className="px-3 py-2 rounded-lg text-sm font-semibold text-gray-700 hover:bg-gray-100 transition">المتاجر</Link>
             <Link href="/alerts" className="px-3 py-2 rounded-lg text-sm font-semibold bg-emerald-50 text-emerald-700 hover:bg-emerald-100 transition">تنبيه الأسعار</Link>
@@ -57,7 +64,7 @@ export default function Header() {
         {mobileMenuOpen && (
           <nav className="md:hidden pb-4 flex flex-col gap-1 border-t border-gray-100 pt-2">
             <Link href="/" className="px-4 py-3 rounded-lg text-sm font-semibold text-gray-700 hover:bg-gray-100">الرئيسية</Link>
-            <Link href="/categories" className="px-4 py-3 rounded-lg text-sm font-semibold text-gray-700 hover:bg-gray-100">الأقسام</Link>
+            <Link href="/ramadan" className="px-4 py-3 rounded-lg text-sm font-semibold bg-purple-50 text-purple-700">رمضان 🌙</Link>
             <Link href="/deals" className="px-4 py-3 rounded-lg text-sm font-semibold text-gray-700 hover:bg-gray-100">العروض 🔥</Link>
             <Link href="/stores" className="px-4 py-3 rounded-lg text-sm font-semibold text-gray-700 hover:bg-gray-100">المتاجر</Link>
             <Link href="/alerts" className="px-4 py-3 rounded-lg text-sm font-semibold bg-emerald-50 text-emerald-700">تنبيه الأسعار</Link>
