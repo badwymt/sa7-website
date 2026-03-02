@@ -445,6 +445,61 @@ export default async function RamadanPage() {
         </div>
       </section>
 
+      
+      {/* Price Alerts Section */}
+      <section className="max-w-7xl mx-auto px-4 py-16" id="price-alerts">
+        <div className="bg-gradient-to-br from-amber-50 to-orange-50 rounded-3xl p-8 md:p-12 border border-amber-100">
+          <div className="grid md:grid-cols-2 gap-8 items-center">
+            <div>
+              <div className="inline-flex items-center gap-2 bg-amber-100 text-amber-800 px-4 py-2 rounded-full text-sm font-semibold mb-4">
+                <span>🔔</span>
+                <span>تنبيه الأسعار</span>
+              </div>
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">اعرف لما السعر ينزل</h2>
+              <p className="text-gray-600 text-lg mb-6 leading-relaxed">ابعتلنا اسم المنتج اللي عايز تتابعه على واتساب وهنبعتلك تنبيه لما سعره ينزل في أي متجر. وفّر وقتك وفلوسك!</p>
+              <div className="space-y-3 mb-8">
+                <div className="flex items-center gap-3">
+                  <span className="w-8 h-8 bg-amber-200 rounded-full flex items-center justify-center text-amber-800 font-bold text-sm">١</span>
+                  <span className="text-gray-700">ابعتلنا رسالة على واتساب باسم المنتج</span>
+                </div>
+                <div className="flex items-center gap-3">
+                  <span className="w-8 h-8 bg-amber-200 rounded-full flex items-center justify-center text-amber-800 font-bold text-sm">٢</span>
+                  <span className="text-gray-700">هنتابع السعر يومياً في كل المتاجر</span>
+                </div>
+                <div className="flex items-center gap-3">
+                  <span className="w-8 h-8 bg-amber-200 rounded-full flex items-center justify-center text-amber-800 font-bold text-sm">٣</span>
+                  <span className="text-gray-700">هنبعتلك تنبيه فوري لما السعر ينزل</span>
+                </div>
+              </div>
+              <a href="https://wa.me/201034737110?text=%D8%B9%D8%A7%D9%8A%D8%B2%20%D8%A7%D8%AA%D8%A7%D8%A8%D8%B9%20%D8%B3%D8%B9%D8%B1" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-amber-500 hover:bg-amber-600 text-white px-8 py-4 rounded-xl text-lg font-bold transition-all shadow-lg hover:shadow-xl">
+                <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.789 23.492a.5.5 0 00.611.611l4.458-1.495A11.952 11.952 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-2.387 0-4.607-.798-6.386-2.147l-.446-.349-3.1 1.04 1.04-3.1-.349-.446A9.953 9.953 0 012 12C2 6.486 6.486 2 12 2s10 4.486 10 10-4.486 10-10 10z"/></svg>
+                تابع سعر منتج
+              </a>
+            </div>
+            <div className="bg-white rounded-2xl p-6 shadow-lg border border-amber-100">
+              <h3 className="font-bold text-gray-800 mb-4 text-center">أمثلة على التنبيهات</h3>
+              <div className="space-y-3">
+                <div className="bg-green-50 border border-green-200 rounded-xl p-4">
+                  <p className="font-bold text-green-800 text-sm">🔔 تنبيه سعر!</p>
+                  <p className="text-green-700 text-sm">أرز بسمتي ٥ كيلو نزل من <span className="line-through">١٢٠ ج</span> لـ <span className="font-bold">٩٥ ج</span> في كارفور</p>
+                  <p className="text-green-600 text-xs mt-1">وفّرت ٢٥ جنيه! 🎉</p>
+                </div>
+                <div className="bg-green-50 border border-green-200 rounded-xl p-4">
+                  <p className="font-bold text-green-800 text-sm">🔔 تنبيه سعر!</p>
+                  <p className="text-green-700 text-sm">زيت عباد الشمس ١ لتر نزل من <span className="line-through">٨٥ ج</span> لـ <span className="font-bold">٦٩ ج</span> في كازيون</p>
+                  <p className="text-green-600 text-xs mt-1">وفّرت ١٦ جنيه! 🎉</p>
+                </div>
+                <div className="bg-green-50 border border-green-200 rounded-xl p-4">
+                  <p className="font-bold text-green-800 text-sm">🔔 تنبيه سعر!</p>
+                  <p className="text-green-700 text-sm">لبن كامل الدسم ١ لتر نزل من <span className="line-through">٣٥ ج</span> لـ <span className="font-bold">٢٨ ج</span> في سبينيز</p>
+                  <p className="text-green-600 text-xs mt-1">وفّرت ٧ جنيه! 🎉</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* SEO Content */}
       <section className="max-w-7xl mx-auto px-4 py-10">
         <div className="bg-white rounded-2xl p-6 md:p-8 border border-gray-100">
