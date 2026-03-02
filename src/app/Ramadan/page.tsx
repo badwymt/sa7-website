@@ -157,7 +157,7 @@ export default async function RamadanPage() {
               >
                 ابعتلنا على واتساب
               </a>
-              <p className="text-xs text-purple-300 text-center mt-2">+20 103 473 7110</p>
+              <p className="text-xs text-purple-300 text-center mt-2" dir="ltr">+20 103 473 7110</p>
             </div>
           </div>
         </div>
@@ -464,7 +464,7 @@ export default async function RamadanPage() {
             <p>
               لو عندك محل أو سوبرماركت، تقدر تضيف عروضك مجاناً على صح وتوصل
               لعملاء جداد في منطقتك. كلمنا على واتساب{" "}
-              <a href="https://wa.me/201034737110" className="text-emerald-600 font-semibold hover:underline" target="_blank" rel="noopener noreferrer">+20 103 473 7110</a>
+              <a href="https://wa.me/201034737110" className="text-emerald-600 font-semibold hover:underline" dir="ltr" style={{display: "inline-block"}} target="_blank" rel="noopener noreferrer">+20 103 473 7110</a>
             </p>
           </div>
         </div>
